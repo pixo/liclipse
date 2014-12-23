@@ -1,0 +1,16 @@
+name : liclipse
+
+uuid : 0a55a035-a844-49c0-b75f-c2174673da42
+
+description : "Lightweight editors, theming and usability improvements for Eclipse"
+authors : [brainwy]
+config_version : 0
+version : 1.2.1
+
+#requires :
+#- anytool
+
+commands:
+- export LICLIPSEVER=1.2.1
+- export LICLIPSE=/opt/liclipse/$LICLIPSEVER
+- export PATH=$PATH:$LICLIPSE
