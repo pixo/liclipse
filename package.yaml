@@ -7,10 +7,10 @@ authors : [brainwy]
 config_version : 0
 version : 1.2.1
 
-#requires :
-#- anytool
+requires :
+- hkenv
 
 commands:
 - export LICLIPSEVER=1.2.1
-- export LICLIPSE=/opt/liclipse/$LICLIPSEVER
+- export LICLIPSE=$HK_SHARE/liclipse/$LICLIPSEVER
 - export PATH=$PATH:$LICLIPSE
