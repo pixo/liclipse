@@ -7,8 +7,5 @@ authors : [brainwy]
 config_version : 0
 version : 1.2.1
 
-# requires :
-# - badenv
-
 commands:
-- export PATH=$BD_SHARE/liclipse/!VERSION!:$PATH
+- export PATH=$BD_SOFTS/liclipse/!VERSION!:$PATH
